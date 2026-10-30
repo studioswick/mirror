@@ -6,7 +6,7 @@ on:
     branches: [main]
   schedule:
     - cron: '52 18 * * 2'
-
+ 
 concurrency:
   group: "deploy"
   cancel-in-progress: false
